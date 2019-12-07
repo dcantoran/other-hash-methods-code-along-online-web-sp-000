@@ -10,5 +10,5 @@ require 'pry'
 
 def get_the_min(groceries)
   #code your solution here!
-  groceries.values.sort {|a| puts a}
+  groceries.values.sort {|a| puts a.min}
 end

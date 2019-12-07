@@ -11,7 +11,7 @@ require 'pry'
 def get_the_min(groceries)
   #code your solution here!
   groceries.each do |key, value|
-    value.sort.min
-    binding.pry
+    value.min
+    # binding.pry
   end 
 end

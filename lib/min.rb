@@ -12,7 +12,7 @@ def get_the_min(groceries)
   #code your solution here!
   groceries.values.each do 
     # binding.pry
-    # min
+    min
   end
 end
 
